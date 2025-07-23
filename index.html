@@ -5,36 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: Arial;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 20px;
-      background: #f9f9f9;
+      background: linear-gradient(to right, #fceabb, #f8b500);
     }
-    input, button {
-      padding: 10px;
-      margin: 8px 0;
-      width: 100%;
-      max-width: 300px;
-    }
+
     .card {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      max-width: 400px;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 420px;
       margin: auto;
       text-align: center;
     }
+
+    h2 {
+      color: #f57c00;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px 0;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 8px 5px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #039be5;
+      color: white;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0288d1;
+    }
+
     .on {
       color: green;
       font-weight: bold;
     }
+
     .off {
       color: red;
       font-weight: bold;
     }
+
     .wait {
       color: green;
       font-weight: bold;
+    }
+
+    #status {
+      margin-top: 12px;
+      font-size: 17px;
     }
   </style>
 </head>
